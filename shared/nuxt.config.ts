@@ -1,13 +1,7 @@
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/ui'
+    '@nuxt/ui',
   ],
-
-  ui: {
-    icons: [
-      'simple-icons',
-    ],
-  },
 
   tailwindcss: {
     viewer: false,
