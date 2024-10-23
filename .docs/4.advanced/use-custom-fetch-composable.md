@@ -1,7 +1,7 @@
 ---
 toc: false
-title: 'Use Custom Fetch Composable'
-description: 'This example shows a convenient wrapper for the useFetch composable from nuxt. It allows you to customize the fetch request with default values and user authentication token.'
+title: '自定义 Fetch 组合函数'
+description: '此示例展示了 nuxt 的 useFetch 组合函数的一个便捷包装器。它允许您使用默认值和用户身份验证令牌自定义 fetch 请求。'
 ---
 
 :read-more{to="/docs/guide/recipes/custom-usefetch"}

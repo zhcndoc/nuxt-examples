@@ -1,7 +1,7 @@
 ---
 toc: false
-title: 'Module Extend Pages'
-description: 'This example defines a new `test` page using `extendPages` within a module.'
+title: '模块扩展页面'
+description: '这个例子使用 `extendPages` 在模块中定义了一个新的 `test` 页面。'
 ---
 
 :read-more{to="/docs/guide/going-further/modules"}

@@ -1,7 +1,7 @@
 ---
 toc: false
 title: 'JSX / TSX'
-description: 'This example shows how to use JSX syntax with typescript in Nuxt pages and components.'
+description: '此示例展示了如何在 Nuxt 页面和组件中使用 JSX 语法与 TypeScript。'
 ---
 
 :read-more{icon="i-simple-icons-vuedotjs" to="https://vuejs.org/guide/extras/render-function.html#jsx-tsx" target="_blank"}

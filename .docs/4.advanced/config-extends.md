@@ -1,10 +1,10 @@
 ---
 toc: false
-title: 'Layers'
-description: 'This example shows how to use the extends key in `nuxt.config.ts`.'
+title: '层'
+description: '这个示例展示了如何在 `nuxt.config.ts` 中使用 extends 关键字。'
 ---
 
-This example shows how to use the `extends` key in `nuxt.config.ts` to use the `base/` directory as a base Nuxt application, and use its components, composables or config and override them if necessary.
+这个示例展示了如何在 `nuxt.config.ts` 中使用 `extends` 关键字，将 `base/` 目录作为基础 Nuxt 应用程序，并使用其组件、组合函数或配置，并在必要时覆盖它们。
 
 :read-more{to="/docs/getting-started/layers"}
 

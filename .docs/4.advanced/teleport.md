@@ -1,12 +1,12 @@
 ---
 toc: false
 title: Teleport
-description: 'This example shows how to use the <Teleport> with client-side and server-side rendering.'
+description: '此示例展示了如何在客户端渲染和服务器端渲染中使用 <Teleport>。'
 ---
 
-Vue 3 provides the [`<Teleport>` component](https://vuejs.org/guide/built-ins/teleport.html) which allows content to be rendered elsewhere in the DOM, outside of the Vue application.
+Vue 3 提供了 [`<Teleport>` 组件](https://vuejs.org/guide/built-ins/teleport.html)，它允许内容在 DOM 中的其他地方渲染，超出 Vue 应用程序的范围。
 
-This example shows how to use the `<Teleport>` with client-side and server-side rendering.
+此示例展示了如何在客户端渲染和服务器端渲染中使用 `<Teleport>`。
 
 :read-more{to="/docs/api/components/teleports"}
 

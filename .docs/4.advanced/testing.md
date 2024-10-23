@@ -1,7 +1,7 @@
 ---
 toc: false
-title: Testing
-description: 'This example shows how to test your Nuxt application.'
+title: 测试
+description: '本示例展示如何测试您的 Nuxt 应用程序。'
 ---
 
 :read-more{to="/docs/getting-started/testing"}

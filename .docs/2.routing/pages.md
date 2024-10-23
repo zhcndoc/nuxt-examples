@@ -1,7 +1,7 @@
 ---
 toc: false
-title: 'Pages'
-description: 'This example shows how to use the pages/ directory to create application routes.'
+title: '页面'
+description: '此示例演示如何使用 pages/ 目录创建应用程序路由。'
 ---
 
 :read-more{to="/docs/guide/directory-structure/pages"}
