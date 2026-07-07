@@ -1,9 +1,17 @@
 ---
 toc: false
 title: 测试
-description: '本示例展示如何测试您的 Nuxt 应用程序。'
+description: '此示例展示如何测试你的 Nuxt 应用程序。'
+links:
+  - label: 源码
+    icon: i-simple-icons-github
+    to: https://github.com/nuxt/examples/tree/main/examples/advanced/testing
 ---
 
-:read-more{to="/docs/getting-started/testing"}
+::code-explorer{path="examples/advanced/testing" default-value="tests/basic.test.ts"}
+::
 
-:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/testing" file="app.vue"}
+::browser{src="https://testing.example.nuxt.space"}
+::
+
+:read-more{to="/docs/getting-started/testing"}

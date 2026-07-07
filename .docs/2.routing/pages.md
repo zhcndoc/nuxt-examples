@@ -1,9 +1,17 @@
 ---
 toc: false
 title: '页面'
-description: '此示例演示如何使用 pages/ 目录创建应用程序路由。'
+description: '此示例展示了如何使用 pages/ 目录来创建应用路由。'
+links:
+  - label: 源码
+    icon: i-simple-icons-github
+    to: https://github.com/nuxt/examples/tree/main/examples/routing/pages
 ---
 
-:read-more{to="/docs/guide/directory-structure/pages"}
+::code-explorer{path="examples/routing/pages" default-value="pages/index.vue"}
+::
 
-:sandbox{repo="nuxt/examples" branch="main" dir="examples/routing/pages" file="app.vue"}
+::browser{src="https://pages.example.nuxt.space"}
+::
+
+:read-more{to="/docs/guide/directory-structure/pages"}

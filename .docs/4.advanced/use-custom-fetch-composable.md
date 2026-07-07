@@ -1,9 +1,17 @@
 ---
 toc: false
-title: '自定义 Fetch 组合函数'
-description: '此示例展示了 nuxt 的 useFetch 组合函数的一个便捷包装器。它允许您使用默认值和用户身份验证令牌自定义 fetch 请求。'
+title: '使用自定义 Fetch 可组合函数'
+description: '此示例展示了来自 nuxt 的 useFetch 可组合函数的一个便捷封装。它允许你使用默认值和用户认证令牌来自定义 fetch 请求。'
+links:
+  - label: Source
+    icon: i-simple-icons-github
+    to: https://github.com/nuxt/examples/tree/main/examples/advanced/use-custom-fetch-composable
 ---
 
-:read-more{to="/docs/guide/recipes/custom-usefetch"}
+::code-explorer{path="examples/advanced/use-custom-fetch-composable" default-value="plugins/customFetch.ts"}
+::
 
-:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/use-custom-fetch-composable" file="composables/useCustomFetch.ts"}
+::browser{src="https://use-custom-fetch-composable.example.nuxt.space"}
+::
+
+:read-more{to="/docs/guide/recipes/custom-usefetch"}

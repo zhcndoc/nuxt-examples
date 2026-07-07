@@ -1,9 +1,17 @@
 ---
 toc: false
 title: '中间件'
-description: '本示例演示了如何使用 middleware/ 目录或插件添加路由中间件，以及如何全局或按页面使用它们。'
+description: '本示例展示如何通过 middleware/ 目录或插件添加路由中间件，以及如何在全局或按页面使用它们。'
+links:
+  - label: Source
+    icon: i-simple-icons-github
+    to: https://github.com/nuxt/examples/tree/main/examples/routing/middleware
 ---
 
-:read-more{to="/docs/guide/directory-structure/middleware"}
+::code-explorer{path="examples/routing/middleware" default-value="middleware/redirect-me.ts"}
+::
 
-:sandbox{repo="nuxt/examples" branch="main" dir="examples/routing/middleware" file="app.vue"}
+::browser{src="https://middleware.example.nuxt.space"}
+::
+
+:read-more{to="/docs/guide/directory-structure/middleware"}

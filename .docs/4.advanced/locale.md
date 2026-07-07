@@ -1,11 +1,15 @@
 ---
 toc: false
 title: '区域设置'
-description: "此示例演示了如何定义一个区域设置组合，以处理应用程序的区域设置，涵盖服务器和客户端。"
+description: "此示例展示了如何定义一个用于处理应用程序区域设置的可组合函数，同时支持服务端和客户端。"
+links:
+  - label: 源码
+    icon: i-simple-icons-github
+    to: https://github.com/nuxt/examples/tree/main/examples/advanced/locale
 ---
 
-::callout{icon="i-ph-info-duotone"}
-您可以右键点击以“查看页面源代码”，可以看到 Nuxt 在服务器端渲染中根据访问者的区域设置渲染了正确的日期。
+::code-explorer{path="examples/advanced/locale" default-value="composables/locale.ts"}
 ::
 
-:sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/locale" file="app.vue"}
+::browser{src="https://locale.example.nuxt.space"}
+::
