@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=https://agentscan.tools/schemas/agentscan.json
+version: 1
+
+mode: full
+
+auto-close: true
+auto-close-classifications:
+  - automation
+
+trusted-author-associations:
+  - owner
+  - member
+  - collaborator
+  - contributor
+
+labels:
+  automation: possible bot
+  mixed: possible bot
+  community-flagged: possible bot
+
+messages:
+  automation: |
+    我们已将这项贡献标记为可能并非由真人提交。我们欢迎在贡献过程中审慎使用 AI 工具，但请所有贡献者遵循[两项核心原则](https://roe.dev/blog/using-ai-in-open-source)：
+
+    1. **不要让 LLM 代你发言**：所有评论、Issue 和 PR 描述都应使用自己的措辞撰写，并体现自己的理解。
+    2. **不要让 LLM 代你思考**：只提交自己完全理解并能解释清楚的内容。
+
+    请阅读这些 AI 辅助贡献指南，并视情况更新这项贡献。
+
+    目前我们先关闭此 PR，因为该账号看起来像自动化账号。如果这是误判，请重新打开 PR，我们会再次查看。
+  mixed: |
+    我们已将这项贡献标记为可能并非由真人提交。我们欢迎在贡献过程中审慎使用 AI 工具，但请所有贡献者遵循[两项核心原则](https://roe.dev/blog/using-ai-in-open-source)：
+
+    1. **不要让 LLM 代你发言**：所有评论、Issue 和 PR 描述都应使用自己的措辞撰写，并体现自己的理解。
+    2. **不要让 LLM 代你思考**：只提交自己完全理解并能解释清楚的内容。
+
+    请阅读这些 AI 辅助贡献指南，并视情况更新这项贡献。
+
+    如果这是误判，很抱歉！😳 请告诉我们。🙏
+  community-flagged: |
+    我们已将这项贡献标记为可能并非由真人提交。我们欢迎在贡献过程中审慎使用 AI 工具，但请所有贡献者遵循[两项核心原则](https://roe.dev/blog/using-ai-in-open-source)：
+
+    1. **不要让 LLM 代你发言**：所有评论、Issue 和 PR 描述都应使用自己的措辞撰写，并体现自己的理解。
+    2. **不要让 LLM 代你思考**：只提交自己完全理解并能解释清楚的内容。
+
+    请阅读这些 AI 辅助贡献指南，并视情况更新这项贡献。
+
+    如果这是误判，很抱歉！😳 请告诉我们。🙏
+  insufficient-data: |
+    看起来你刚开始使用 GitHub，很高兴你愿意参与贡献！💚
+
+    我们欢迎在贡献过程中审慎使用 AI 工具，但请所有贡献者遵循[两项核心原则](https://roe.dev/blog/using-ai-in-open-source)：
+
+    1. **不要让 LLM 代你发言**：所有评论、Issue 和 PR 描述都应使用自己的措辞撰写，并体现自己的理解。
+    2. **不要让 LLM 代你思考**：只提交自己完全理解并能解释清楚的内容。
